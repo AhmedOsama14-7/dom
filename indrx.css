@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.card{
+    height: fit-content;
+    width: calc((100% / 3) - 3rem );
+    background-color: white;
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-inline: 2rem;
+    margin-block: 2rem;
+    width:95vw;
+    height: 100vh;
+    justify-content: center;
+}
+.text{
+    
+}
+.card img:nth-child(1){
+    width: 40%;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.card img:nth-child(2){
+    width: 15%;
+    height: 40px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius:.5rem ;
+}
